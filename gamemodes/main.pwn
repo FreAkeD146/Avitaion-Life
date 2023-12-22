@@ -10,11 +10,11 @@
 
 
 //Script Includes-------------------
-#include "server/ConnectMYSQL.pwn"
-#include "server/missionloc.pwn"
-#include "server/basic.pwn"
-#include "server/textdraws.pwn"
-#include "server/Objects.pwn"
+#include "AL/ConnectMYSQL.pwn"
+#include "AL/missionloc.pwn"
+#include "AL/basic.pwn"
+#include "AL/textdraws.pwn"
+#include "AL/Objects.pwn"
 //----------------------------------
 
 stock SetPlayerPosOb(playerid, Float:x, Float:y, Float:z){
